@@ -13,4 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
         
     }   
 
+    //By default, we-move button is not displayed
+    document.querySelector('.we-move').style.display = 'none';
+
+    document.querySelector('.button').onclick = () => {
+        document.querySelector('.we-move').style.display = 'block';
+    }
+
 });

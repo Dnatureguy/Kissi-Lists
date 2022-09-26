@@ -87,7 +87,7 @@ button {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 50px 13px;
+        margin: 30px 13px;
         width: 90%;
         height: 64px;
         background: #f5f5fa;
@@ -104,5 +104,30 @@ button {
 }
 
 .product-btn {
-    margin-top: -30px;
+    margin-top: -10px;
+}
+
+.we-move {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 13px;
+    width: 90%;
+    height: 8vh;
+    background: #0F1242;
+    border-radius: 8px; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.we-move:hover {
+    background-color:  #1D1E30;
+}
+
+i {
+    margin-left: 7px;
+    font-size: 15px;
 }
