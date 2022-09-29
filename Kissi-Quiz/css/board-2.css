@@ -54,23 +54,14 @@ p {
     margin: 5px;
 }
 
-.lfg-p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-i {
-    margin: 3px;
+#p {
+    font-size: 15px;
 }
 
 #div1 {
-    height: 70px;
-    width: 100%;
-    background-color: blue;
-    font-size: 48px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: -500;
 }
 
 

@@ -1,14 +1,22 @@
-function arrow() {
-    var a;
-    a = document.querySelector("#div1");
-    a.innerHTML = "&#xf01e;";
-    setTimeout(() => {
-        a.innerHTML = "&#xf2f1;";
-    }, 1000);
-    setTimeout(() => {
-        a.innerHTML = "&#xf01e;";
-    }, 2000);
-}
+document.addEventListener('DOMContentLoaded', () => {
+    function arrowRotate() {
+        let arrow = document.getElementById('div1');
+        arrow.innerHTML = "&#xf01e;";
 
-arrow();
-setInterval(arrow, 3000);
+        setTimeout(function () {
+            arrow.innerHTML = "&#xf021;";
+        }, 500);
+
+        setTimeout(function () {
+            arrow.innerHTML = "&#xf01e;";
+        }, 1000);
+
+        setTimeout(function () {
+            arrow.innerHTML = "&#xf021;";
+        }, 1500);
+    }
+    
+    arrowRotate();
+    setTimeout(arrowRotate, 2000)
+})
+
